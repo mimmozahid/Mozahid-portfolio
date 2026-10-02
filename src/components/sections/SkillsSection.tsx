@@ -151,7 +151,7 @@ export function SkillsSection() {
                             <button
                               type="button"
                               onClick={() => setSelectedSkill(node)}
-                              className={`w-full py-2.5 px-3 rounded-xl font-mono text-xs font-semibold flex items-center justify-between transition-all duration-200 border ${
+                              className={`w-full py-2.5 px-3 rounded-xl font-mono text-xs font-semibold flex items-center justify-between transition-all duration-200 border focus-visible:ring-2 focus-visible:ring-cyan-400 focus-visible:outline-none ${
                                 isCurrentSelected
                                   ? "bg-white/[0.15] text-white border-white/40 shadow-lg scale-102"
                                   : isConnected

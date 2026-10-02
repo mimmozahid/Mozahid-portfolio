@@ -185,8 +185,17 @@ export function ProjectsSection() {
             <motion.div
               layout
               key={project.id}
+              role="button"
+              tabIndex={0}
+              aria-expanded={isSelected}
+              onKeyDown={(e) => {
+                if (e.key === "Enter" || e.key === " ") {
+                  e.preventDefault();
+                  toggleSelect(project.id);
+                }
+              }}
               onClick={() => toggleSelect(project.id)}
-              className={`p-6 sm:p-7 rounded-2xl border transition-all duration-300 cursor-pointer relative overflow-hidden flex flex-col justify-between ${
+              className={`p-6 sm:p-7 rounded-2xl border transition-all duration-300 cursor-pointer relative overflow-hidden flex flex-col justify-between focus-visible:ring-2 focus-visible:ring-cyan-400 focus-visible:outline-none ${
                 isSelected
                   ? "bg-[#090e1f] border-cyan-500/40 shadow-2xl shadow-cyan-950/30 ring-1 ring-cyan-500/20"
                   : "bg-[#080c18]/90 border-white/[0.08] hover:border-white/20 hover:bg-[#0a0f20]"

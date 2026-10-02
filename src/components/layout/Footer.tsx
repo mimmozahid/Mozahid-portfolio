@@ -76,7 +76,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="https://codeforces.com"
+                  href="https://codeforces.com/profile/mim_mozahid"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-purple-400 transition-colors flex items-center gap-1.5"
@@ -86,12 +86,22 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="https://leetcode.com"
+                  href="https://www.codechef.com/users/mim_mozahid"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-amber-400 transition-colors flex items-center gap-1.5"
                 >
-                  <span className="font-mono font-bold text-[10px] text-amber-400">LC</span> LeetCode
+                  <span className="font-mono font-bold text-[10px] text-amber-400">CC</span> CodeChef
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://leetcode.com/u/mim_mozahid"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-cyan-400 transition-colors flex items-center gap-1.5"
+                >
+                  <span className="font-mono font-bold text-[10px] text-cyan-400">LC</span> LeetCode
                 </a>
               </li>
               <li>

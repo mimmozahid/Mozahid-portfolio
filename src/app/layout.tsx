@@ -15,9 +15,9 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Software Engineer & Competitive Programmer | Portfolio",
+  title: "Mim Mozahid | Software Engineering & Competitive Programming",
   description:
-    "From solving problems to building systems. Personal portfolio of a Software Engineering student & Competitive Programmer.",
+    "Software Engineering student at Daffodil International University with a strong interest in competitive programming, algorithms, problem solving, and software development.",
   keywords: [
     "Software Engineer",
     "Competitive Programmer",

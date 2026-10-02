@@ -151,7 +151,7 @@ function AlgorithmicConvergenceFlow() {
               CodeChef
             </text>
             <text x="12" y="36" fill="#c084fc" fontSize="10" fontFamily="monospace">
-              2 Star • Rating: 1470
+              2 Star • Rating: 1442
             </text>
             <circle cx="160" cy="22" r="4" fill="#a78bfa" />
           </g>
@@ -225,7 +225,7 @@ function AlgorithmicConvergenceFlow() {
           <div className="space-y-2">
             <div className="p-3 rounded-lg bg-[#0f1129] border border-purple-500/30 font-mono text-xs">
               <div className="font-bold text-white">CodeChef</div>
-              <div className="text-purple-300">2 Star • Rating: 1470</div>
+              <div className="text-purple-300">2 Star • Rating: 1442</div>
             </div>
             <div className="p-3 rounded-lg bg-[#0f1129] border border-purple-500/30 font-mono text-xs">
               <div className="font-bold text-white">Codeforces</div>

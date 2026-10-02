@@ -47,7 +47,8 @@ export function ContactSection() {
   return (
     <SectionContainer id="contact">
       <SectionHeading
-        eyebrow="Initiate Connection"
+        eyebrow="08 // INITIATE CONNECTION"
+        eyebrowVariant="dual"
         title="Let's Build or"
         highlight="Collaborate"
         description="Whether you have an internship opportunity, a systems engineering challenge, or an algorithmic puzzle to discuss."
@@ -129,18 +130,18 @@ export function ContactSection() {
                 <LinkedinIcon className="h-4 w-4" />
               </a>
               <a
-                href="https://codeforces.com"
+                href="https://codeforces.com/profile/mim_mozahid"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-3 py-2 rounded-lg bg-purple-500/10 hover:bg-purple-500/20 border border-purple-500/20 text-xs font-mono text-purple-300 transition-colors"
+                className="px-3 py-2 rounded-lg bg-purple-500/10 hover:bg-purple-500/20 border border-purple-500/20 text-xs font-mono text-purple-300 transition-colors focus-visible:ring-2 focus-visible:ring-purple-400 focus-visible:outline-none"
               >
                 Codeforces
               </a>
               <a
-                href="https://leetcode.com"
+                href="https://leetcode.com/u/mim_mozahid"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-3 py-2 rounded-lg bg-cyan-500/10 hover:bg-cyan-500/20 border border-cyan-500/20 text-xs font-mono text-cyan-300 transition-colors"
+                className="px-3 py-2 rounded-lg bg-cyan-500/10 hover:bg-cyan-500/20 border border-cyan-500/20 text-xs font-mono text-cyan-300 transition-colors focus-visible:ring-2 focus-visible:ring-cyan-400 focus-visible:outline-none"
               >
                 LeetCode
               </a>

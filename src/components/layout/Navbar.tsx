@@ -10,10 +10,10 @@ import { cn } from "@/lib/utils";
 const NAV_ITEMS = [
   { name: "Home", href: "#hero" },
   { name: "About", href: "#about" },
-  { name: "Dual Identity", href: "#dual-identity" },
+  { name: "Two Sides", href: "#dual-identity" },
   { name: "Skills", href: "#skills" },
   { name: "Projects", href: "#projects" },
-  { name: "CP", href: "#cp" },
+  { name: "CP Journey", href: "#cp" },
   { name: "Achievements", href: "#achievements" },
   { name: "Education", href: "#education" },
   { name: "Contact", href: "#contact" },
@@ -49,15 +49,24 @@ export function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Lock body scroll when mobile menu is open
+  // Lock body scroll when mobile menu is open & listen for Escape
   useEffect(() => {
     if (mobileMenuOpen) {
       document.body.style.overflow = "hidden";
     } else {
       document.body.style.overflow = "unset";
     }
+
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "Escape" && mobileMenuOpen) {
+        setMobileMenuOpen(false);
+      }
+    };
+
+    window.addEventListener("keydown", handleKeyDown);
     return () => {
       document.body.style.overflow = "unset";
+      window.removeEventListener("keydown", handleKeyDown);
     };
   }, [mobileMenuOpen]);
 

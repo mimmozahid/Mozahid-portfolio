@@ -295,7 +295,7 @@ function VisualPanel({ prefersReduced }: { prefersReduced: boolean }) {
       <motion.div
         animate={{ opacity: fading ? 0.15 : 1, scale: fading ? 0.95 : 1 }}
         transition={{ duration: 0.5, ease: "easeInOut" }}
-        className="relative w-[290px] h-[360px] sm:w-[320px] sm:h-[390px]"
+        className="relative w-[260px] h-[330px] sm:w-[320px] sm:h-[390px] max-w-full"
       >
         <div
           className="absolute inset-0 rounded-3xl blur-3xl opacity-20 transition-colors duration-700"
@@ -589,7 +589,7 @@ export function HeroSection() {
             transition={{ duration: 0.8, delay: 0.3, ease: EASE }}
           >
             <motion.div
-              className="relative rounded-2xl border border-white/[0.07] bg-[#07091a]/80 backdrop-blur-xl p-6 sm:p-8 shadow-2xl"
+              className="relative rounded-2xl border border-white/[0.07] bg-[#07091a]/80 backdrop-blur-xl p-4 sm:p-8 max-w-full overflow-hidden shadow-2xl"
               whileHover={
                 prefersReduced
                   ? {}
