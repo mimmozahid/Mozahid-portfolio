@@ -2,7 +2,6 @@
 
 import { useReducedMotion } from "framer-motion";
 import { SectionContainer } from "@/components/layout/SectionContainer";
-import { SectionHeading } from "@/components/ui/SectionHeading";
 import { portfolioData } from "@/data/portfolioData";
 import {
   ExternalLink,
@@ -255,16 +254,7 @@ export function CompetitiveProgrammingSection() {
   const { platforms } = portfolioData.competitiveProgramming;
 
   return (
-    <SectionContainer id="cp" hasBorderBottom>
-      <SectionHeading
-        eyebrow="05 // COMPETITIVE PROGRAMMING"
-        eyebrowVariant="cp"
-        title="MY ALGORITHMIC"
-        highlight="JOURNEY"
-        highlightColor="cp"
-        description="Developing mathematical rigor, time-complexity discipline, and edge-case paranoia through hundreds of hours on competitive platforms."
-      />
-
+    <SectionContainer id="cp" hasBorderBottom className="pt-12 sm:pt-16 md:pt-20">
       {/* 1. Platforms Detailed Cards */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
         {platforms.map((p) => {
