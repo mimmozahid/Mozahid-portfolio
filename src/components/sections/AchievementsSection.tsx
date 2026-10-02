@@ -14,8 +14,7 @@ export function AchievementsSection() {
   return (
     <SectionContainer id="achievements" hasBorderBottom>
       <SectionHeading
-        eyebrow="06 // HONORS & RECOGNITION"
-        eyebrowVariant="cp"
+
         title="Distinguished"
         highlight="Achievements"
         highlightColor="cp"

@@ -47,8 +47,7 @@ export function ContactSection() {
   return (
     <SectionContainer id="contact">
       <SectionHeading
-        eyebrow="08 // INITIATE CONNECTION"
-        eyebrowVariant="dual"
+
         title="Let's Build or"
         highlight="Collaborate"
         description="Whether you have an internship opportunity, a systems engineering challenge, or an algorithmic puzzle to discuss."

@@ -34,8 +34,7 @@ export function AboutSection() {
   return (
     <SectionContainer id="about" hasBorderBottom>
       <SectionHeading
-        eyebrow="01 // ABOUT"
-        eyebrowVariant="dual"
+
         title="Engineering Mindset &"
         highlight="Focus"
         description="Software Engineering undergraduate grounded in algorithmic problem solving and structured software design."

@@ -170,8 +170,7 @@ export function ProjectsSection() {
   return (
     <SectionContainer id="projects" hasBorderBottom>
       <SectionHeading
-        eyebrow="04 // ENGINEERING SHOWCASE"
-        eyebrowVariant="swe"
+
         title="Featured"
         highlight="Engineering Projects"
         description="Applied systems demonstrating object-oriented modeling, database persistence, and hardware-software integration."

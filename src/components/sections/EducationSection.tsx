@@ -14,8 +14,7 @@ export function EducationSection() {
   return (
     <SectionContainer id="education" hasBorderBottom>
       <SectionHeading
-        eyebrow="07 // ACADEMIC FOUNDATION"
-        eyebrowVariant="swe"
+
         title="Formal"
         highlight="Education"
         description="Core undergraduate studies providing foundational discipline in computing and software construction."

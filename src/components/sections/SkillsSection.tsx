@@ -43,8 +43,7 @@ export function SkillsSection() {
   return (
     <SectionContainer id="skills" hasBorderBottom>
       <SectionHeading
-        eyebrow="03 // SKILLS & ARCHITECTURE"
-        eyebrowVariant="dual"
+
         title="Interactive"
         highlight="Skills & Clusters"
         description="Structured into interconnected computational pipelines and modular systems. No arbitrary percentages."
@@ -129,11 +128,11 @@ export function SkillsSection() {
                 >
                   <div>
                     {/* Header */}
-                    <div className="flex items-center justify-between mb-4">
-                      <span className={`text-xs font-mono font-bold uppercase tracking-wider ${titleColor}`}>
+                    <div className="flex items-start justify-between gap-2 mb-4">
+                      <span className={`text-xs font-mono font-bold uppercase tracking-wider ${titleColor} min-w-0`}>
                         {cluster.title}
                       </span>
-                      <span className="h-2 w-2 rounded-full animate-ping" style={{ backgroundColor: isPurple ? "#a78bfa" : isCyan ? "#22d3ee" : isAmber ? "#fbbf24" : "#34d399" }} />
+                      <span className="h-2 w-2 rounded-full animate-ping flex-shrink-0 mt-0.5" style={{ backgroundColor: isPurple ? "#a78bfa" : isCyan ? "#22d3ee" : isAmber ? "#fbbf24" : "#34d399" }} />
                     </div>
 
                     <p className="text-xs text-slate-400 mb-6 leading-relaxed">

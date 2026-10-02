@@ -150,7 +150,7 @@ function AlgorithmicConvergenceFlow() {
               CodeChef
             </text>
             <text x="12" y="36" fill="#c084fc" fontSize="10" fontFamily="monospace">
-              2 Star • Rating: 1442
+              2 Star • Rating: 1470
             </text>
             <circle cx="160" cy="22" r="4" fill="#a78bfa" />
           </g>
@@ -194,9 +194,9 @@ function AlgorithmicConvergenceFlow() {
           </g>
 
           {/* ── Right Target Core: Problem Solving ── */}
-          <g transform="translate(485, 65)">
+          <g transform="translate(460, 65)">
             <rect
-              width="250"
+              width="290"
               height="90"
               rx="16"
               fill="#080e24"
@@ -207,13 +207,13 @@ function AlgorithmicConvergenceFlow() {
             <circle cx="28" cy="45" r="14" fill="#22d3ee" fillOpacity="0.15" stroke="#22d3ee" strokeWidth="1.5" />
             <text x="28" y="50" fill="#22d3ee" fontSize="14" textAnchor="middle">★</text>
 
-            <text x="54" y="38" fill="#a78bfa" fontSize="10" fontWeight="bold" fontFamily="monospace" letterSpacing="2">
+            <text x="54" y="38" fill="#a78bfa" fontSize="9" fontWeight="bold" fontFamily="monospace" letterSpacing="1.5">
               TARGET DESTINATION
             </text>
-            <text x="54" y="58" fill="#ffffff" fontSize="16" fontWeight="extrabold" fontFamily="monospace">
+            <text x="54" y="58" fill="#ffffff" fontSize="15" fontWeight="extrabold" fontFamily="monospace">
               PROBLEM SOLVING
             </text>
-            <text x="54" y="74" fill="#94a3b8" fontSize="10" fontFamily="monospace">
+            <text x="54" y="74" fill="#94a3b8" fontSize="9" fontFamily="monospace">
               Algorithms • Data Structures • Rigor
             </text>
           </g>
@@ -224,7 +224,7 @@ function AlgorithmicConvergenceFlow() {
           <div className="space-y-2">
             <div className="p-3 rounded-lg bg-[#0f1129] border border-purple-500/30 font-mono text-xs">
               <div className="font-bold text-white">CodeChef</div>
-              <div className="text-purple-300">2 Star • Rating: 1442</div>
+              <div className="text-purple-300">2 Star • Rating: 1470</div>
             </div>
             <div className="p-3 rounded-lg bg-[#0f1129] border border-purple-500/30 font-mono text-xs">
               <div className="font-bold text-white">Codeforces</div>

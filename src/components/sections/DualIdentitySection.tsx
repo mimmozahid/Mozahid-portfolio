@@ -267,8 +267,7 @@ export function DualIdentitySection() {
   return (
     <SectionContainer id="dual-identity" hasBorderBottom>
       <SectionHeading
-        eyebrow="02 // DUAL IDENTITY"
-        eyebrowVariant="dual"
+
         title="TWO SIDES OF"
         highlight="MY JOURNEY"
         description="Balancing asymptotic precision and competitive contest problem-solving with scalable, clean software engineering."

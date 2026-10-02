@@ -252,8 +252,8 @@ export const portfolioData = {
         handle: "mim_mozahid",
         profileUrl: "https://www.codechef.com/users/mim_mozahid",
         badge: "2 Star",
-        rating: 1442,
-        rankInfo: "2 Star (Rating: 1442)",
+        rating: 1470,
+        rankInfo: "2 Star (Rating: 1470)",
         accent: "purple",
       },
       {
